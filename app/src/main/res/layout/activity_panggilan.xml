@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_large___9"
+    tools:context=".PanggilanActivity">
+
+
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:contentDescription="settings_description"
+        android:padding="8dp"
+        android:src="@drawable/settings" />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginBottom="18dp"
+        android:background="@null"
+        android:contentDescription="@string/play_description"
+        android:padding="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/circled_play" />
+
+    <ImageButton
+        android:id="@+id/phoneButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/phone"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="160dp"
+        android:contentDescription="@string/phone_description"
+        android:padding="8dp" />
+
+    <ImageButton
+        android:id="@+id/chatButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/chat_bubble"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="85dp"
+        android:contentDescription="@string/chat_description"
+        android:padding="8dp" />
+
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/home_page"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="15dp"
+        android:contentDescription="@string/home_description"
+        android:padding="8dp" />
+
+</RelativeLayout>

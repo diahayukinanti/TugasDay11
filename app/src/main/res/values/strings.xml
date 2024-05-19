@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TugasDay11</string>
+    <string name="masuk_description">masuk_description</string>
+    <string name="play_description">play_description</string>
+    <string name="phone_description">phone_description</string>
+    <string name="chat_description">chat_description</string>
+    <string name="home_description">home_description</string>
+    <string name="settings_description">settings_description</string>
+</resources>
